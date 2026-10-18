@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../Luftborn.Application/Luftborn.Application.csproj" />
+  <Project Path="../Luftborn.Client/Luftborn.Client.csproj" Id="74c98c09-851f-45d0-910a-e14e6779c485" />
+  <Project Path="../Luftborn.Infrastructure/Luftborn.Infrastructure.csproj" />
+  <Project Path="Luftborn.Api.csproj" />
+</Solution>

@@ -1,0 +1,29 @@
+@Luftborn.Api_HostAddress = http://localhost:5162
+
+### Create a product
+POST {{Luftborn.Api_HostAddress}}/api/products
+Content-Type: application/json
+
+{
+  "name": "Mechanical Keyboard",
+  "price": 1500
+}
+
+### Get all products
+GET {{Luftborn.Api_HostAddress}}/api/products
+
+### Get product by ID
+GET {{Luftborn.Api_HostAddress}}/api/products/2
+
+### Update product
+PUT {{Luftborn.Api_HostAddress}}/api/products/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Mechanical Keyboard Pro",
+  "price": 2000
+}
+
+### Delete product
+DELETE {{Luftborn.Api_HostAddress}}/api/products/2
